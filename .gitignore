@@ -1,3 +1,11 @@
+# Executables of this project
+array
+hello
+int
+module
+object
+variable
+
 # Object files
 *.o
 *.ko
