@@ -19,7 +19,7 @@ int main (int argc, const char **argv) {
 		return 1;
 	}
 
-	mrb_funcall(mrb, mrb_top_self(mrb), "bar", 0);
+	mrb_funcall(mrb, mrb_obj_value(module), "bar", 0);
 
 	mrb_close(mrb);
 	return 0;
